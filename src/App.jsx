@@ -1,15 +1,16 @@
 import "./App.css";
-import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar.jsx";
+import Feed from "./Feed.jsx";
+import Widgets from "./Widgets.jsx";
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello World!</h1>
-
       <Sidebar />
-      {/* Feed */}
 
-      {/* Widgets */}
+      <Feed />
+
+      <Widgets />
     </div>
   );
 }
