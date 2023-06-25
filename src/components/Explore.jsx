@@ -5,6 +5,7 @@ import Tweet from "./Tweet.jsx";
 import { collection, onSnapshot } from "firebase/firestore";
 import db from "../config/firebase";
 import FlipMove from "react-flip-move";
+import { Button } from "@mui/material";
 
 function Explore() {
   const [tweets, setTweets] = useState([]);
