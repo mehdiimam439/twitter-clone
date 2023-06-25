@@ -5,6 +5,7 @@ import { auth } from "../config/firebase";
 import db from "../config/firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { collection, addDoc } from "firebase/firestore";
+import axios from "axios";
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
@@ -18,8 +19,7 @@ function TweetBox() {
   const sendTweet = async (e) => {
     e.preventDefault();
     const data = await getData();
-    console.log(data);
-    addDoc(collection(db, "tweets"), {
+    await addDoc(collection(db, "tweets"), {
       displayName: data.name,
       username: data.userName,
       verified: true,
@@ -27,6 +27,9 @@ function TweetBox() {
       image: tweetImage,
       avatar: data.avatar,
       timeStamp: new Date().getTime(),
+    });
+    axios.get(`http://localhost:3001/bart/${data.interests}`).catch((error) => {
+      console.error("Error making bart request:", error);
     });
     setTweetMessage("");
     setTweetImage("");
