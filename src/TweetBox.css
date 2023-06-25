@@ -21,6 +21,11 @@
   border: none;
 }
 
+.tweetBox--imageInput {
+  border: none;
+  padding: 10px;
+}
+
 .tweetBox--button {
   background-color: var(--primary-color) !important;
   border: none !important;
