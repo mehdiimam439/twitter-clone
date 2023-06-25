@@ -15,18 +15,12 @@ function Widgets() {
         <input placeholder="Search Twitter" type="text" />
       </div>
       <div className="widgets--widgetContainer">
-        <h2>What's happening?!</h2>
+        <h2>Tweet Of The Week</h2>
         <TwitterTweetEmbed tweetId={"1669104396536516609"} />
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="AnthropicAI"
-          options={{ height: 400 }}
-        />
         <TwitterShareButton
           url={"github.com/mehdiimam439/twitter-clone"}
           options={{
-            text: "Your Twitter clone is really cool!",
-            via: "mehdiimam439",
+            text: "This Twitter clone by Mehdi Imam and Tanzia Nur is really cool!",
           }}
         />
       </div>

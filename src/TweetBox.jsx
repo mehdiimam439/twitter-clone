@@ -11,9 +11,9 @@ function TweetBox() {
   const sendTweet = (e) => {
     e.preventDefault();
     addDoc(collection(db, "tweets"), {
-      displayName: "Test Man",
-      username: "test_man23",
-      verfied: true,
+      displayName: "displayName",
+      username: "username",
+      verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar: "",
