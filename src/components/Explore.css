@@ -1,0 +1,27 @@
+.explore {
+  flex: 0.4;
+  border-right: 1px solid var(--secondary-color);
+  min-width: fit-content;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.explore--input {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.explore--input > input {
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.explore--searchIcon {
+  color: gray;
+}

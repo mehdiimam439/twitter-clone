@@ -4,8 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Twitter from "./components/Twitter";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import Feed from "./components/Feed.jsx";
-import Widgets from "./components/Widgets";
-import Sidebar from "./components/Sidebar";
+import Explore from "./components/Explore.jsx";
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Route path="/" element={<Twitter active="home" Main={Feed} />} />
         <Route
           path="/search"
-          element={<Twitter active="search" Main={Widgets} />}
+          element={<Twitter active="search" Main={Explore} />}
         />
         <Route
           path="/profile"

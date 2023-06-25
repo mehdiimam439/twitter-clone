@@ -8,7 +8,7 @@ import FavoriteBorderRoundedIcon from "@mui/icons-material/FavoriteBorderRounded
 
 const Tweet = forwardRef(
   (
-    { displayName, username, verified, timestamp, text, image, avatar },
+    { displayName, username, verified, timeStamp, text, image, avatar },
     ref
   ) => {
     return (
@@ -30,13 +30,21 @@ const Tweet = forwardRef(
               {verified && (
                 <VerifiedIcon align="true" className="tweet--verified" />
               )}{" "}
-              <span className="tweet--headerSpecial">@{username}</span>
+              <span className="tweet--headerSpecial">
+                @{username}
+                {" · "}
+                {new Date().toLocaleDateString() ==
+                new Date(timeStamp).toLocaleDateString()
+                  ? new Date(timeStamp).toLocaleTimeString()
+                  : new Date(timeStamp).toLocaleDateString()}
+              </span>
             </div>
             <div className="tweet--headerDesc">
               <p>{text}</p>
             </div>
           </div>
           <img src={image} />
+          <span className="tweet--headerSpecial">{}</span>
           <div className="tweet--footer">
             <ChatBubbleOutlineRoundedIcon fontSize="small" />
             <RepeatRoundedIcon fontSize="small" />
