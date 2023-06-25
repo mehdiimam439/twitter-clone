@@ -6,6 +6,7 @@ import ProtectedRoutes from "./components/ProtectedRoutes";
 import Feed from "./components/Feed.jsx";
 import Explore from "./components/Explore.jsx";
 
+
 function App() {
   return (
     <Routes>
@@ -19,7 +20,7 @@ function App() {
         <Route
           path="/profile"
           element={<Twitter active="profile" Main={Auth} />}
-        />
+        />    
       </Route>
     </Routes>
   );
