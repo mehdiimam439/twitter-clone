@@ -28,7 +28,7 @@ const Tweet = forwardRef(
             >
               <h3>{displayName}</h3>
               {verified && (
-                <VerifiedIcon align className="tweet--verified" />
+                <VerifiedIcon align="true" className="tweet--verified" />
               )}{" "}
               <span className="tweet--headerSpecial">@{username}</span>
             </div>

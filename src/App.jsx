@@ -1,7 +1,7 @@
 import "./App.css";
-import Sidebar from "./Sidebar.jsx";
-import Feed from "./Feed.jsx";
-import Widgets from "./Widgets.jsx";
+import Sidebar from "./components/Sidebar.jsx";
+import Feed from "./components/Feed.jsx";
+import Widgets from "./components/Widgets.jsx";
 
 function App() {
   return (

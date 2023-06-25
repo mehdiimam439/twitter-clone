@@ -1,7 +1,7 @@
 import { Avatar, Button } from "@mui/material";
 import React, { useState } from "react";
 import "./TweetBox.css";
-import db from "./firebase";
+import db from "./config/firebase";
 import { collection, addDoc } from "firebase/firestore";
 
 function TweetBox() {
