@@ -1,0 +1,70 @@
+/* Auth.css */
+
+/* Auth Container */
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Auth Input fields */
+.auth-input {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* Auth Buttons */
+.auth-button {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+/* Auth Text */
+.auth-text {
+  text-align: center;
+  font-size: 14px;
+  color: #657786;
+}
+
+.auth-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0c84d3;
+}
+
+button:active {
+  background-color: #095c96;
+}
+
+.signUp {
+  margin-top: 15px !important;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 50px !important;
+  margin-left: 45%;
+  padding-bottom: 15px;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}

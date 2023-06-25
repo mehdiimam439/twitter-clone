@@ -24,3 +24,9 @@
 .sidebarOption--active {
   color: var(--primary-color);
 }
+
+.sidebarOption--link {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
