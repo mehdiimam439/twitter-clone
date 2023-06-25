@@ -5,7 +5,8 @@ import Twitter from "./components/Twitter";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import Feed from "./components/Feed.jsx";
 import Explore from "./components/Explore.jsx";
-
+import { Widgets } from "@mui/icons-material";
+import Settings from "./components/Settings";
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
         <Route
           path="/profile"
           element={<Twitter active="profile" Main={Auth} />}
-        />    
+        />
+        <Route
+          path="/settings"
+          element={<Twitter active="settings" Main={Settings} />}
+        />
       </Route>
     </Routes>
   );
