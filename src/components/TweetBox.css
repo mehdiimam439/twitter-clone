@@ -1,6 +1,6 @@
 .tweetBox {
   padding-bottom: 10px;
-  border-bottom: 8px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
   padding-right: 10px;
 }
 
@@ -19,11 +19,16 @@
   margin-left: 20px;
   font-size: 20px;
   border: none;
+  color: inherit;
+  background-color: inherit;
 }
 
 .tweetBox--imageInput {
-  border: none;
+  border: 1px solid var(--secondary-color);
   padding: 10px;
+  color: inherit;
+  background-color: inherit;
+  width: 100%;
 }
 
 .tweetBox--button {
