@@ -2,9 +2,9 @@ import React from "react";
 import "./Settings.css";
 import { Button } from "@mui/material";
 
-function Settings() {
+function Settings({ isDarkMode, setIsDarkMode }) {
   const toggleDarkMode = () => {
-    console.log("Dark mode toggled");
+    setIsDarkMode(!isDarkMode);
   };
 
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
-import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
+import "../App.css";
 import "./Widgets.css";
 
 function Widgets() {

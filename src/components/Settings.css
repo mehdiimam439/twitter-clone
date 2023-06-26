@@ -23,3 +23,11 @@
   height: 50px !important;
   margin-top: 20px !important;
 }
+
+body {
+  --primary-color: #1d9bf0;
+  --icon-color: #1d9bf0;
+  --secondary-color: #e8f5fe;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}

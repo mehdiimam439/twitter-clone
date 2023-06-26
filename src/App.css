@@ -1,10 +1,20 @@
 body {
-  /* --primary-color: #50b7f5;
+  --primary-color: #1d9bf0;
+  --icon-color: #1d9bf0;
   --secondary-color: #e8f5fe;
   --background-color: #ffffff;
   --text-color: #000000;
+  /* --primary-color: #1d9bf0;
+  --icon-color: #d6d9db;
+  --secondary-color: #16181c;
   --background-color: #000000;
-  --text-color: #ffffff; */
+  --text-color: #e7e9ea; */
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body .dark {
   --primary-color: #1d9bf0;
   --icon-color: #d6d9db;
   --secondary-color: #16181c;
