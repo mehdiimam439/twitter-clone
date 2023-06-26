@@ -1,13 +1,12 @@
 .settings {
   flex: 0.4;
   border-right: 1px solid var(--secondary-color);
-
+  min-width: 47%;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
   border-right: 1px solid var(--secondary-color);
   flex: 0.3;
-  min-width: 250px;
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;

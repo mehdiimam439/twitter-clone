@@ -3,6 +3,7 @@
 /* Auth Container */
 .auth-container {
   max-width: 400px;
+  min-width: 47%;
   margin: 0 auto;
   padding: 20px;
   background-color: var(--background-color);

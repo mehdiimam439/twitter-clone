@@ -9,6 +9,7 @@ function Widgets() {
       <div className="widgets--widgetContainer">
         <h2>Tweet Of The Week</h2>
         <TwitterTweetEmbed
+          data-theme={"dark"}
           tweetId={"1669104396536516609"}
           className="widgets--tweet"
         />

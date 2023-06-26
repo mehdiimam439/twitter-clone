@@ -1,13 +1,14 @@
 .explore {
   flex: 0.4;
   border-right: 1px solid var(--secondary-color);
-  min-width: fit-content;
+  min-width: 50%;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
 .explore--input {
+  width: 50%;
   display: flex;
   align-items: center;
   background-color: var(--secondary-color);
