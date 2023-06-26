@@ -8,7 +8,7 @@
 }
 
 .sidebar--icon {
-  color: var(--primary-color);
+  color: var(--icon-color);
   font-size: 30px !important;
   padding-left: 20px;
   padding-right: 20px;

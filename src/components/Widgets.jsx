@@ -1,14 +1,17 @@
 import React from "react";
-import "./Widgets.css";
 import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
+import "./Widgets.css";
 
 function Widgets() {
   return (
     <div className="widgets">
       <div className="widgets--widgetContainer">
         <h2>Tweet Of The Week</h2>
-        <TwitterTweetEmbed tweetId={"1669104396536516609"} />
+        <TwitterTweetEmbed
+          tweetId={"1669104396536516609"}
+          className="widgets--tweet"
+        />
         <TwitterShareButton
           url={"github.com/mehdiimam439/twitter-clone"}
           options={{

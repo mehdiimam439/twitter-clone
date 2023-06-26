@@ -25,11 +25,16 @@
   margin-top: 15px;
   margin-left: 20px;
   padding: 20px;
-  background-color: #f5f8fa;
+  background-color: var(--background-color);
   border-radius: 20px;
 }
 
 .widgets--widgetContainer > h2 {
   font-size: 18px;
   font-weight: 800;
+}
+
+.r-14lw9ot {
+  color: red !important;
+  background-color: red !important;
 }

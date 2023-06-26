@@ -1,6 +1,18 @@
 body {
-  --primary-color: #50b7f5;
+  /* --primary-color: #50b7f5;
   --secondary-color: #e8f5fe;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --background-color: #000000;
+  --text-color: #ffffff; */
+  --primary-color: #1d9bf0;
+  --icon-color: #d6d9db;
+  --secondary-color: #16181c;
+  --background-color: #000000;
+  --text-color: #e7e9ea;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .app {
