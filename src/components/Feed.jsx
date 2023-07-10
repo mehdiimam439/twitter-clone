@@ -49,6 +49,7 @@ function Feed() {
               avatar={post.avatar}
               text={post.text}
               image={post.image}
+              hidden={!post.show}
             />
           ))}
       </FlipMove>

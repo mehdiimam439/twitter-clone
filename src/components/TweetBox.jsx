@@ -59,6 +59,7 @@ function TweetBox() {
 
   const populateTweets = async (e) => {
     e.preventDefault();
+    const user = await getData();
     console.log("Populating...");
     const data = [
       {
@@ -190,7 +191,7 @@ function TweetBox() {
         ).getTime(),
       });
       await axios
-        .get(`http://localhost:3001/bart/${data.interests}`)
+        .get(`http://localhost:3001/bart/${user.interests}`)
         .catch((error) => {
           console.error("Error making bart request:", error);
         });

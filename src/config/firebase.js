@@ -1,22 +1,16 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBaa39I2FiQ4Km-NSfPm8E6-ae92z8FPA4",
-  authDomain: "twitter-clone-9edde.firebaseapp.com",
-  projectId: "twitter-clone-9edde",
-  storageBucket: "twitter-clone-9edde.appspot.com",
-  messagingSenderId: "1037531805621",
-  appId: "1:1037531805621:web:e644eae9f9fb1af9128bfc",
+  apiKey: "AIzaSyCMQqECgMXPbwJdpn2xTXhKUmJyX9UBZQY",
+  authDomain: "twitter-1d047.firebaseapp.com",
+  projectId: "twitter-1d047",
+  storageBucket: "twitter-1d047.appspot.com",
+  messagingSenderId: "510726300818",
+  appId: "1:510726300818:web:1c1ea2754b37dea386b24b",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 export const auth = getAuth(app);
