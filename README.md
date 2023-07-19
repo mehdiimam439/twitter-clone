@@ -4,6 +4,10 @@ A Twitter clone with a machine learning based recommendation system.
 
 *React.js, Node.js, Firebase, Hugging Face, Flexbox*
 
+**Demo**
+
+https://github.com/mehdiimam439/twitter-clone/assets/60456257/55270078-31b5-477c-b337-a8408290e61b
+
 **Signing up**
 
 ![signup](https://github.com/mehdiimam439/twitter-clone/assets/60456257/f425b0c7-1fe2-472d-a128-c20da1da93a4)
